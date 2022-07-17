@@ -1,0 +1,140 @@
+input{
+    font-size: large;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px grey;
+    border-radius: 5px;
+    background-color: rgb(89, 146, 201);
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 15px;   
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+input:hover {
+    opacity: 0.6;
+    color: black;    
+}
+
+.row {
+    display: flex;
+}
+
+img {
+    padding: 80px;    
+}
+
+.colomn {
+    text-align: center;
+}
+
+header {
+    text-align:center;
+    background-color:rgba(168, 164, 164, 0.2);   
+    height: 300px;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: teal;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+h2 {
+    color: lightsalmon;
+    background-color: rgba(168, 164, 164, 0.2);
+    padding: 10px;
+}
+
+
+button {
+    border: none;
+    outline: 0;
+    color: rgb(0, 0, 0);
+    background-color: #04AA6D;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 50px;
+    box-shadow: 20px -20px 85 black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.checkoutBtn {
+    background-color: #04AA6D;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    visibility: hidden;
+    padding: 20px;
+    box-shadow: 20px -20px 85 black;
+}
+
+h3 {
+text-align: center;
+color: darkgreen;
+font-size: 55px;
+background-color: black;
+padding: 10px;
+}
+
+.receiptTbl{
+    visibility: hidden;
+}
+
+#images {
+    clear: both;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 20px 20px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    font-size: 25px;
+    line-height: 50px;
+    background-color: aquamarine;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+th, td {
+    padding: 3px;
+}
+
+th {
+    text-align: left;
+}
+
+#gst{
+    color: chocolate;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#total{
+    color: rgba(54, 64, 190, 0.829);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#customerName {
+    color: ghostwhite;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#img {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#price {
+        font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

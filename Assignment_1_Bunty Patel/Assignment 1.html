@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Minutiae By Bunty Patel
+    </title>
+    <Header>
+        <img class ="logo" src="C:\Users\12266\Downloads\min logo.png" height="200px"></img> 
+    </Header>
+    <link rel="stylesheet" href="Assignment 1.css">
+    <script src="Assignment 1.js"></script>
+</head> 
+<body>
+    <h1>Portfolio website for photographer Bunty Patel focusing on fashion, commercial, personal projects</h1> <br><br>
+    <row>
+        <column><h2> All Products</h2></column>
+    </row>
+    <div id="images">
+        <div class="row">
+            <div class="colomn">
+                <Img src="C:\Users\12266\Desktop\CAD\PROG8020 Web Design & Development\Assignment\Img\Niagara.JPG" width="200 px" height="300 px"></Img>
+                <div id="img">Niagara</div> 
+                <div id="item1"></div><br>
+                <div id="price"><b>$70</b></div><br>
+                <input id="btn1" type="button" value="Add to cart" onclick="btn1()">             
+                
+            </div>
+            <div class="colomn">          
+                <Img src= "C:\Users\12266\Desktop\CAD\PROG8020 Web Design & Development\Assignment\Img\Niagra old couple.jpg" width="200 px" height="300 px"></Img>
+                <div id="img">Couple</div> 
+                <div id="item2"></div><br>
+                <div id="price"><b>$90</b></div><br>
+                <input id="btn2" type="button" value="Add to cart" onclick="btn2()">                
+    
+            </div>
+            <div class="colomn">           
+                <Img src="C:\Users\12266\Desktop\CAD\PROG8020 Web Design & Development\Assignment\Img\Flight.JPG" width="200 px" height="300 px"></Img>
+                <div id="img">Airplane</div> 
+                <div id="item3"></div><br>
+                <div id="price"><b>$100</b></div><br> 
+                <input id="btn3" type="button" value="Add to cart" onclick="btn3()">             
+            </div>
+            <div class="colomn">
+                <Img src="C:\Users\12266\Desktop\CAD\PROG8020 Web Design & Development\Assignment\Img\Poor.jpg" width="200 px" height="300 px"></Img>
+                <div id="img">Girl</div> 
+                <div id="item4"></div><br>
+                <div id="price"><b>$120</b></div><br>
+                <input id="btn4" type="button" value="Add to cart" onclick="btn4()"> 
+            </div>
+            <div class="colomn">
+                <Img src="C:\Users\12266\Desktop\CAD\PROG8020 Web Design & Development\Assignment\Img\cat.jpg" width="200 px" height="300 px"></Img>
+                <div id="img">Cat</div> 
+                <div id="item5"></div><br>
+                <div id="price"><b>$150</b></div><br> 
+                <input id="btn5" type="button" value="Add to cart" onclick="btn5()"> 
+            </div>
+        </div><br><br>
+        <div id="btnMain" class="checkoutBtn"><button onclick="checkOut()">Checkout</button></div>
+    </div>
+
+    <!--Receipt Div where receipt generates after checking out-->
+    <div id="bill">
+
+        <h3 id="bill1">Receipt</h3>
+
+        <h3 id="customerName" style="text-align:left;"></h3>
+
+        <!--Bill Table-->
+        <table style="width: 100%" id="receiptTbl">
+           
+           <tr>
+             <th>Niagara x $70</th>
+             <td id="math1"></td>
+             <td id="total1"></td>
+           </tr>
+
+           <tr>
+              <th>Couple x $90</th>
+              <td id="math2"></td>
+              <td id="total2"></td>
+            </tr>
+
+            <tr>
+              <th>Airplane x $100</th>
+              <td id="math3"></td>
+              <td id="total3"></td>
+            </tr>
+
+            <tr>
+              <th>Girl x $120</th>
+              <td id="math4"></td>
+              <td id="total4"></td>
+            </tr>
+
+            <tr>
+              <th>Cat x $150</th>
+              <td id="math5"></td>
+              <td id="total5"></td>
+            </tr>
+
+           <tr>
+              <th colspan ="2">GST @ 13%</th>
+              <td id="gst">$0.00</td>
+           </tr>
+
+           <tr>
+              <th colspan ="2">Total</th>
+             <td id="total">$0.00</td>
+           </tr>
+
+         </table>
+
+     </div>
+
+<footer>
+    <h4>&copy 2022 Minutiae. ALL RIGHTS RESERVED</h4>
+</footer>
+</body>
+</html>
